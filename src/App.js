@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import FileReader from "./fileReader";
+import "./App.css";
+import "typeface-roboto";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <FileReader></FileReader>
       </header>
     </div>
   );
